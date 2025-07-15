@@ -1,6 +1,7 @@
 [build]
+  base = "vanilla-auth-craft-main"
   command = "npm run build"
-  publish = "dist"
+  publish = "vanilla-auth-craft-main/dist"
 
 [build.environment]
   NODE_VERSION = "18"
